@@ -1,0 +1,290 @@
+/*GLOBALES*/
+
+.center {
+    text-align: center;
+}
+
+.module {
+    position: relative;
+    padding: 70px 0px 70px 0px;
+}
+
+h2 {
+    padding-top: 25px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+
+.bg-light {
+    color: #ffff !important;
+    background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-nav {
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/nav.png) !important;
+}
+
+/* BANNER */
+
+div.slider-initial {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+.slider-img img{
+    width: 100%;
+    height: 110vh;
+}
+
+.slide img {
+    width: 100%;
+    height: 250px;
+}
+
+.btn-center {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: 100%;
+}
+
+.btn-banner {
+    background-color: #182041;
+    color: #fff;
+    border: 1px #fff;
+    padding: 3px 12px;
+}
+
+.text-body {
+    color: #6f6f6f !important;
+}
+
+/* SLIDER DEVELOPMENT*/
+.slider-wrap {
+    position: relative;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider.slick-initialized {
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.slider .slide.initialized {
+    display: block;
+}
+
+.slider-nav {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -30px;
+}
+
+.slider-prev,
+.slider-next {
+    font-size: 11px;
+    color: #000;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    transition: all 0.4s;
+}
+
+.slider-prev {
+    float: left;
+    margin-left: 1%;
+}
+
+.slider-next {
+    float: right;
+    padding-left: 5px;
+    margin-right: 1%;
+}
+
+/** PROPERTIES FEATURED MODULE **/
+.properties.featured .property {
+    width: 25%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.properties.featured .slider-nav {
+    width: 120px;
+    left: 50%;
+    margin-left: -60px;
+    top: auto;
+}
+
+.properties.featured .slider-featured {
+    margin-top: 55px;
+}
+
+
+/** PROPERTY HIDDEN CONTENT **/
+.property.property-hidden-content .property-content {
+    transition: all 0.4s;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(72, 160, 220, 0.7);
+    z-index: 10;
+    color: white;
+    display: block;
+}
+
+.property.property-hidden-content .property-title {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.property.property-hidden-content .property-title .fa {
+    color: white;
+}
+
+.property.property-hidden-content .property-content h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.property.property-hidden-content .property-details {
+    color: white;
+}
+
+.property.property-hidden-content:hover .property-content {
+    opacity: 1.0;
+}
+
+.property.property-hidden-content .property-content {
+    transition: all 0.4s;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(72, 160, 220, 0.7);
+    z-index: 10;
+    color: white;
+    display: block;
+}
+
+.property-price {
+    color: white;
+    position: absolute;
+    font-weight: 400;
+    font-size: 23px;
+    z-index: 20;
+}
+
+.slide .property-price {
+width: 25%;
+height: 100%;
+}
+
+.color{
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.color2{
+    background-color: rgba(158, 25, 129, 0.3); 
+}
+
+.color3{
+    background-color: rgba(62, 138, 238, 0.3); 
+}
+
+.color4{
+    background-color: rgba(12, 180, 12, 0.37); 
+}
+
+/* VIDEOS */
+
+.videos-clip{
+    margin-bottom: 50px;
+}
+
+
+/* SLOGAN */
+
+.back{
+    background-image: url(/images/palya.png);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+}
+
+.text-slogan{
+    background-color: rgba(6, 7, 65, 0.808);
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 20%;
+    padding: 50px 250px 40px 250px;
+    font-weight: 300;
+}
+
+.text-slogan h1{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+/* SERVICES */
+
+.services-list{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.services-list h1{
+    font-size: 25px;
+}
+
+.services-block{
+    margin-bottom: 40px;
+}
+
+.services-block h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 35px !important;
+}
+
+.services-block p{
+    color: #6f6f6f;
+}
+
+/* CONCEPTOS */
+
+.concepts{
+    background-color: #007ad2;
+    color: #fff;
+}
