@@ -209,19 +209,19 @@ height: 100%;
 }
 
 .color{
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.3) !important; 
 }
 
 .color2{
-    background-color: rgba(158, 25, 129, 0.3); 
+    background-color: rgba(158, 25, 129, 0.3) !important; 
 }
 
 .color3{
-    background-color: rgba(62, 138, 238, 0.3); 
+    background-color: rgba(62, 138, 238, 0.3) !important; 
 }
 
 .color4{
-    background-color: rgba(12, 180, 12, 0.37); 
+    background-color: rgba(12, 180, 12, 0.37) !important; 
 }
 
 /* VIDEOS */
@@ -287,4 +287,36 @@ height: 100%;
 .concepts{
     background-color: #007ad2;
     color: #fff;
+    overflow: hidden;
+    padding: 40px 40px 30px 10px;
 }
+
+.list-concepts h2{
+    font-size: 60px !important;
+    margin-top: 0 !important;
+    padding-top: 0;
+}
+
+.list-concepts p{
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+/* TESTIMONIALS*/
+
+.testimoniales{
+    background-image: url(/images/bannertestimonos.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.testimoniales img{
+    margin-top: 50px;
+}
+
+.carousel-item{
+    transform: translateX(200px) translateY(100px) translateX(0px) translateX(0px) translateZ(0px) !important;
+}
+
+/* CONTACT */
